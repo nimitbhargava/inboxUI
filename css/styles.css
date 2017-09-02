@@ -20,6 +20,16 @@
     border-style: dashed;
 }
 
+.body {
+    float: right;
+    width: 80%;
+}
+
+.left-side-menu {
+    float: left;
+    width: 20%;
+}
+
 /*For Mobile Devices*/
 
 @media screen and (max-width: 480px) {
