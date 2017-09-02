@@ -13,72 +13,75 @@
 <body>
 <header>
     <div class="page-title">
-        <h1>Inbox<span class="search-box"><input type="text" placeholder="Search in mails"></span></h1>
+        <h1>Inbox</h1>
     </div>
-    <div><a href="#" class="open-side-menu">Menu</a></div>
+    <div class="search-box"><input type="text" placeholder="Search in mails"></div>
     <div class="compose-email">
         <button><span class="hide-on-mob"><i class="material-icons">add</i> </span>Compose</button>
     </div>
+    <div><a href="#" class="open-side-menu floralwhite">Menu</a></div>
 </header>
-<section class="left-side-menu container">
-    <div>
-        <ul class="routes style-none">
-            <li><i class="material-icons">inbox</i> Inbox</li>
-            <li><i class="material-icons">drafts</i> Draft</li>
-            <li><i class="material-icons">check</i> Sent</li>
-            <li><i class="material-icons">delete</i> Trash</li>
-        </ul>
-    </div>
-    <div>
-        <hr>
-    </div>
-    <div>
-        <span class="tags-header">Tags <i class="material-icons">local_offer</i></span>
-        <ul class="style-none">
-            <li>Work</li>
-            <li>Fashion</li>
-            <li>Animals</li>
-            <li>Code</li>
-        </ul>
-    </div>
-    <div>
-        <hr>
-    </div>
-    <div class="profile">
-        <img class="profile-img" src="https://pbs.twimg.com/profile_images/892406095267811328/SesUzQto_400x400.jpg">
-    </div>
-</section>
-<section class="body container">
-    <div class="body-header">
-        <div class="quick-actions">
-            <a href="#"><i class="material-icons">reply</i></a>
-            <a href="#"><i class="material-icons">thumb_up</i></a>
-            <a href="#"><i class="material-icons">card_giftcard</i></a>
-            <a href="#"><i class="material-icons">arrow_downward</i></a>
+<div class="container">
+    <section class="left-side-menu">
+        <div>
+            <ul class="routes style-none">
+                <li><i class="material-icons">inbox</i> Inbox</li>
+                <li><i class="material-icons">drafts</i> Draft</li>
+                <li><i class="material-icons">check</i> Sent</li>
+                <li><i class="material-icons">delete</i> Trash</li>
+            </ul>
         </div>
-        <div class="sort">
-            <a href="#" class="show-alpha">Alphabetically</a>
-            <span> | </span>
-            <a href="#" class="show-recent">Recent</a>
+        <div>
+            <hr>
         </div>
-    </div>
-    <div class="inbox-mails">
-        <table class="alphabetically">
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-        </table>
-        <table class="recent">
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-        </table>
-    </div>
-</section>
+        <div>
+            <span class="tags-header">Tags <i class="material-icons">local_offer</i></span>
+            <ul class="style-none">
+                <li>Work</li>
+                <li>Fashion</li>
+                <li>Animals</li>
+                <li>Code</li>
+            </ul>
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div class="profile">
+            <img class="profile-img" src="https://pbs.twimg.com/profile_images/892406095267811328/SesUzQto_400x400.jpg">
+        </div>
+    </section>
+    <section class="body container">
+        <div class="body-header">
+            <div class="quick-actions">
+                <a href="#"><i class="material-icons">reply</i></a>
+                <a href="#"><i class="material-icons">thumb_up</i></a>
+                <a href="#"><i class="material-icons">card_giftcard</i></a>
+                <a href="#"><i class="material-icons">arrow_downward</i></a>
+            </div>
+            <div class="sort">
+                <a href="#" class="show-alpha">Alphabetically</a>
+                <span> | </span>
+                <a href="#" class="show-recent">Recent</a>
+            </div>
+        </div>
+        <div class="inbox-mails">
+            <table class="alphabetically">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </table>
+            <table class="recent">
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+    </section>
+</div>
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/app.js"></script>
 </body>

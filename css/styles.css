@@ -49,10 +49,6 @@
     margin-top: 20px;
 }
 
-.search-box {
-    float: right;
-}
-
 .tags-header {
     margin-left: 30%;
 }
@@ -60,6 +56,20 @@
 .material-icons{
     padding-right: 5px;
     vertical-align: text-top;
+}
+
+.body-header, header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.floralwhite {
+    color: floralwhite;
+}
+
+header {
+    background-color: rebeccapurple;
+    color: floralwhite;
 }
 
 body {
