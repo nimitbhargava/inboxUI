@@ -67,16 +67,25 @@ $(document).ready(function () {
             for (var i = 0; i < mails.length; i++) {
                 var mail = mails[i];
                 var tag = '';
-                if (mail.tag) tag = mail.tag + ' | ';
-                var mailAlphaEntry = '<tr class="mail-list"><td><a><img class="user-img" src="https://pbs.twimg.com/profile_images/892406095267811328/SesUzQto_400x400.jpg">' + mail.name + '</a></td><td>' + tag + mail.title + '</td><td>' + mail.receivedAt + '</td></tr>';
+                var classForTag = '';
+                if (mail.tag) {
+                    classForTag = 'tag';
+                    tag = mail.tag;
+                }
+                var imgURL = "https://pbs.twimg.com/profile_images/892406095267811328/SesUzQto_400x400.jpg";
+                var mailAlphaEntry = '<tr class="mail-list"><td><a><img class="user-img" src="' + imgURL + '">' + mail.name + '</a></td><td>' + mail.title + ' <span class="' + classForTag + '">' + tag + '</span></td><td>' + mail.receivedAt + '</td></tr>';
                 this.alphaElem.append(mailAlphaEntry);
             }
             var recentMails = connector.getRecentMails();
             for (var i = 0; i < recentMails.length; i++) {
                 var mail = recentMails[i];
-                var tag = '';
-                if (mail.tag) tag = mail.tag + ' | ';
-                var mailRecentEntry = '<tr class="mail-list"><td><a><img class="user-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA1zAAAAJDU3NjI1ZGU1LTA4ZWEtNDExMS05NGY1LWU3MWM3N2ZhMDg0Ng.jpg">' + mail.name + '</a></td><td>' + tag + mail.title + '</td><td>' + mail.receivedAt + '</td></tr>';
+                var classForTag = '';
+                if (mail.tag) {
+                    classForTag = 'tag';
+                    tag = mail.tag;
+                }
+                var imgURL = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA1zAAAAJDU3NjI1ZGU1LTA4ZWEtNDExMS05NGY1LWU3MWM3N2ZhMDg0Ng.jpg";
+                var mailRecentEntry = '<tr class="mail-list"><td><a><img class="user-img" src="' + imgURL + '">' + mail.name + '</a></td><td>' + mail.title + ' <span class="' + classForTag + '">' + tag + '</span></td><td>' + mail.receivedAt + '</td></tr>';
                 this.recentElem.append(mailRecentEntry);
             }
         }
