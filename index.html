@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inbox UI</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro|Titillium+Web" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="page-title">
-        <h3> Inbox - Navigation Bar</h3>
-        <input type="text" placeholder="Search in mails">
+        <h3> Inbox - Navigation Bar<span class="search-box"><input type="text" placeholder="Search in mails"></span></h3>
+
     </div>
     <div><a href="#" class="open-side-menu">Menu</a></div>
     <div class="compose-email">
@@ -56,12 +57,25 @@
         </div>
         <div class="sort">
             <a href="#" class="show-alpha">Alphabetically</a>
+            <span> | </span>
             <a href="#" class="show-recent">Recent</a>
         </div>
     </div>
     <div class="inbox-mails">
-        <table class="alphabetically"><tr><th></th><th></th><th></th></tr></table>
-        <table class="recent"><tr><th></th><th></th><th></th></tr></table>
+        <table class="alphabetically">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+        <table class="recent">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
     </div>
 </section>
 <script src="js/jquery-3.2.1.js"></script>

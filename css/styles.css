@@ -36,22 +36,9 @@
     width: 20%;
 }
 
-body {
-    background:#F0F0F0;
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .left-side-menu li:hover {
     background-color: #555;
     color: white;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
 }
 
 .left-side-menu li, img {
@@ -62,6 +49,23 @@ ul {
     margin-top: 20px;
 }
 
+.search-box {
+    float: right;
+}
+
+body {
+    background: #F0F0F0;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Titillium Web', 'Source Sans Pro', 'PT Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
 
 /*For Mobile Devices*/
 
