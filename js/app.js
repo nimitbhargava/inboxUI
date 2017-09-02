@@ -2,28 +2,28 @@ $(document).ready(function () {
 
     var model = {
         mails: [
-            {name: "Nimit", imgURL: "", title: "Need approval", tag: "fashion", receivedAt: "timestamp"},
-            {name: "John", imgURL: "", title: "You need to fll your form", tag: "fashion", receivedAt: "timestamp"},
-            {name: "Someone", imgURL: "", title: "Hello", tag: "", receivedAt: "timestamp"},
-            {name: "Joanne", imgURL: "", title: "Offer: If you need more money", tag: "spam", receivedAt: "timestamp"},
-            {name: "James", imgURL: "", title: "This is awesome opportunity", tag: "", receivedAt: "timestamp"},
-            {name: "Jakarta", imgURL: "", title: "Buy at 50%", tag: "sale", receivedAt: "timestamp"},
-            {name: "Bali", imgURL: "", title: "I dont know why", tag: "", receivedAt: "timestamp"},
-            {name: "Java", imgURL: "", title: "New Friend request", tag: "social", receivedAt: "timestamp"},
-            {name: "Sam", imgURL: "", title: "Watch GoT", tag: "netflix", receivedAt: "timestamp"},
-            {name: "Xhibit", imgURL: "", title: "Pimp my ride", tag: "mtv", receivedAt: "timestamp"}
+            {name: "Nimit", imgURL: "", title: "Need approval", tag: "fashion", receivedAt: "2017-10-06"},
+            {name: "John", imgURL: "", title: "You need to fll your form", tag: "fashion", receivedAt: "2017-11-16"},
+            {name: "Someone", imgURL: "", title: "Hello", tag: "", receivedAt: "2017-12-27"},
+            {name: "Joanne", imgURL: "", title: "Offer: If you need more money", tag: "spam", receivedAt: "2017-09-29"},
+            {name: "James", imgURL: "", title: "This is awesome opportunity", tag: "", receivedAt: "2017-09-29"},
+            {name: "Jakarta", imgURL: "", title: "Buy at 50%", tag: "sale", receivedAt: "2017-10-06"},
+            {name: "Bali", imgURL: "", title: "I dont know why", tag: "", receivedAt: "2017-09-29"},
+            {name: "Java", imgURL: "", title: "New Friend request", tag: "social", receivedAt: "2017-12-27"},
+            {name: "Sam", imgURL: "", title: "Watch GoT", tag: "netflix", receivedAt: "2017-10-06"},
+            {name: "Xhibit", imgURL: "", title: "Pimp my ride", tag: "mtv", receivedAt: "2017-12-27"}
         ],
         recentMails: [
-            {name: "Sam", imgURL: "", title: "Watch GoT", tag: "netflix", receivedAt: "timestamp"},
-            {name: "John", imgURL: "", title: "You need to fll your form", tag: "fashion", receivedAt: "timestamp"},
-            {name: "Jakarta", imgURL: "", title: "Buy at 50%", tag: "sale", receivedAt: "timestamp"},
-            {name: "James", imgURL: "", title: "This is awesome opportunity", tag: "", receivedAt: "timestamp"},
-            {name: "Joanne", imgURL: "", title: "Offer: If you need more money", tag: "spam", receivedAt: "timestamp"},
-            {name: "Nimit", imgURL: "", title: "Need approval", tag: "fashion", receivedAt: "timestamp"},
-            {name: "Java", imgURL: "", title: "New Friend request", tag: "social", receivedAt: "timestamp"},
-            {name: "Someone", imgURL: "", title: "Hello", tag: "", receivedAt: "timestamp"},
-            {name: "Xhibit", imgURL: "", title: "Pimp my ride", tag: "mtv", receivedAt: "timestamp"},
-            {name: "Bali", imgURL: "", title: "I dont know why", tag: "", receivedAt: "timestamp"}
+            {name: "Sam", imgURL: "", title: "Watch GoT", tag: "netflix", receivedAt: "2017-09-29"},
+            {name: "John", imgURL: "", title: "You need to fll your form", tag: "fashion", receivedAt: "2017-09-29"},
+            {name: "Jakarta", imgURL: "", title: "Buy at 50%", tag: "sale", receivedAt: "2017-09-29"},
+            {name: "James", imgURL: "", title: "This is awesome opportunity", tag: "", receivedAt: "2017-10-06"},
+            {name: "Joanne", imgURL: "", title: "Offer: If you need more money", tag: "spam", receivedAt: "2017-10-06"},
+            {name: "Nimit", imgURL: "", title: "Need approval", tag: "fashion", receivedAt: "2017-11-02"},
+            {name: "Java", imgURL: "", title: "New Friend request", tag: "social", receivedAt: "2017-11-02"},
+            {name: "Someone", imgURL: "", title: "Hello", tag: "", receivedAt: "2017-11-02"},
+            {name: "Xhibit", imgURL: "", title: "Pimp my ride", tag: "mtv", receivedAt: "2017-12-27"},
+            {name: "Bali", imgURL: "", title: "I dont know why", tag: "", receivedAt: "2017-12-27"}
         ]
     };
 
