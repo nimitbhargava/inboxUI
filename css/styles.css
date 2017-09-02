@@ -7,8 +7,20 @@
     header {
         height: 20%;
     }
+    .open-side-menu {
+        display: block;
+    }
 }
 
 .recent {
     display: none;
+}
+
+/*For Devices above Mobile size - Tablets/Desktops*/
+
+
+@media (min-width: 480px) {
+    .open-side-menu {
+        display: none;
+    }
 }
