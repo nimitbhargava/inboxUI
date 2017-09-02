@@ -68,7 +68,7 @@ $(document).ready(function () {
                 var mail = mails[i];
                 var tag = '';
                 if (mail.tag) tag = mail.tag + ' | ';
-                var mailAlphaEntry = '<li class="style-none mail-list"><a><img class="user-img" src="https://pbs.twimg.com/profile_images/892406095267811328/SesUzQto_400x400.jpg">' + mail.name + ' | ' + tag + mail.title + ' | ' + mail.receivedAt + '</a></li>';
+                var mailAlphaEntry = '<tr class="mail-list"><td><a><img class="user-img" src="https://pbs.twimg.com/profile_images/892406095267811328/SesUzQto_400x400.jpg">' + mail.name + '</a></td><td>' + tag + mail.title + '</td><td>' + mail.receivedAt + '</td></tr>';
                 this.alphaElem.append(mailAlphaEntry);
             }
             var recentMails = connector.getRecentMails();
@@ -76,7 +76,7 @@ $(document).ready(function () {
                 var mail = recentMails[i];
                 var tag = '';
                 if (mail.tag) tag = mail.tag + ' | ';
-                var mailRecentEntry = '<li class="style-none mail-list"><a><img class="user-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA1zAAAAJDU3NjI1ZGU1LTA4ZWEtNDExMS05NGY1LWU3MWM3N2ZhMDg0Ng.jpg">' + mail.name + ' | ' + tag + mail.title + ' | ' + mail.receivedAt + '</a></li>';
+                var mailRecentEntry = '<tr class="mail-list"><td><a><img class="user-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA1zAAAAJDU3NjI1ZGU1LTA4ZWEtNDExMS05NGY1LWU3MWM3N2ZhMDg0Ng.jpg">' + mail.name + '</a></td><td>' + tag + mail.title + '</td><td>' + mail.receivedAt + '</td></tr>';
                 this.recentElem.append(mailRecentEntry);
             }
         }
