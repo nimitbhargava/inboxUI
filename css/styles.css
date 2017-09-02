@@ -1,0 +1,10 @@
+/*For Mobile Devices*/
+
+@media screen and (max-width: 480px) {
+    .left-side-menu {
+        display: none;
+    }
+    header {
+        height: 20%;
+    }
+}
