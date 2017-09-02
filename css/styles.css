@@ -64,13 +64,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
+    width: 100px;
 }
 
 /*For Mobile Devices*/
 
 @media screen and (max-width: 480px) {
-    .left-side-menu {
+    .left-side-menu, .hide-on-mob {
         display: none;
     }
 

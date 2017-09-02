@@ -8,6 +8,7 @@
     <title>Inbox UI</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro|Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -17,22 +18,23 @@
     </div>
     <div><a href="#" class="open-side-menu">Menu</a></div>
     <div class="compose-email">
-        <button>Compose</button>
+        <button><span class="hide-on-mob"><i class="material-icons">add</i> </span>Compose</button>
     </div>
 </header>
 <section class="left-side-menu container">
     <div>
         <ul class="routes style-none">
-            <li>Inbox</li>
-            <li>Draft</li>
-            <li>Sent</li>
-            <li>Trash</li>
+            <li><i class="material-icons">inbox</i> Inbox</li>
+            <li><i class="material-icons">drafts</i> Draft</li>
+            <li><i class="material-icons">check</i> Sent</li>
+            <li><i class="material-icons">delete</i> Trash</li>
         </ul>
     </div>
     <div>
         <hr>
     </div>
     <div>
+        <span>Tags <i class="material-icons">local_offer</i></span>
         <ul class="style-none">
             <li>Work</li>
             <li>Fashion</li>
@@ -50,10 +52,10 @@
 <section class="body container">
     <div class="body-header">
         <div class="quick-actions">
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
+            <a href="#"><i class="material-icons">reply</i></a>
+            <a href="#"><i class="material-icons">thumb_up</i></a>
+            <a href="#"><i class="material-icons">card_giftcard</i></a>
+            <a href="#"><i class="material-icons">arrow_downward</i></a>
         </div>
         <div class="sort">
             <a href="#" class="show-alpha">Alphabetically</a>
