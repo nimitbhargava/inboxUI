@@ -1,23 +1,37 @@
+.recent {
+    display: none;
+}
+
+.user-img {
+    border-radius: 50%;
+    height: 25px;
+}
+
+.style-none {
+    list-style: none;
+}
+
+.mail-list {
+    margin: 1rem 0;
+}
+
 /*For Mobile Devices*/
 
 @media screen and (max-width: 480px) {
     .left-side-menu {
         display: none;
     }
+
     header {
         height: 20%;
     }
+
     .open-side-menu {
         display: block;
     }
 }
 
-.recent {
-    display: none;
-}
-
 /*For Devices above Mobile size - Tablets/Desktops*/
-
 
 @media (min-width: 480px) {
     .open-side-menu {
